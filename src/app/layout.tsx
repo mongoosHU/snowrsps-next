@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="min-h-screen flex flex-col bg-gradient-to-b from-[#191c24] to-[#23272f] dark:from-[#1a1c22] dark:to-[#121212]">
             {children}
           </main>
-          <footer className="text-center py-6 text-gray-400">
+          <footer className="text-center py-6 text-blue-200">
             © {new Date().getFullYear()} SnowRSPS
           </footer>
         </ThemeProvider>
