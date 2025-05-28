@@ -11,7 +11,7 @@ export default function Home() {
           </span>
         </div>
         <div className="text-gray-200 text-base leading-relaxed">
-          Compared to our <span className="font-semibold text-yellow-300">OLDER</span> server, we've now moved all accounts of <span className="text-blue-300 font-bold">SnowHD</span>, <span className="text-blue-300 font-bold">SnowOS</span> & <span className="text-blue-300 font-bold">SnowHARD</span> here!
+          Compared to our <span className="font-semibold text-yellow-300">OLDER</span> server, we ve now moved all accounts of <span className="text-blue-300 font-bold">SnowHD</span>, <span className="text-blue-300 font-bold">SnowOS</span> & <span className="text-blue-300 font-bold">SnowHARD</span> here!
           <br />
           <span className="font-semibold">Lost/OLD accounts?</span> Recover them on Discord: <span className="bg-blue-600 text-white px-2 py-1 rounded">#make-a-ticket</span> and wait patiently (we answer within <span className="font-semibold text-yellow-300">24 hours</span>).
         </div>
