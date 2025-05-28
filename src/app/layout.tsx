@@ -1,14 +1,11 @@
+"use client";
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
  import Navbar from '../components/Navbar'
- import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react'
 
 
- 
-export const metadata = {
-  title: 'SnowRSPS',
-  description: "Join SnowRSPS – a unique RuneScape Private Server offering custom content, frequent updates, a friendly community, and exciting events! Experience fast XP rates, exclusive bosses, and a dedicated staff team. Download now and start your adventure today!",
-}
+
 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

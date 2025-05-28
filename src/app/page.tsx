@@ -1,4 +1,6 @@
 export default function Home() {
+
+  
   return (
     <section className="flex flex-col items-center gap-8 mt-12">
       <h1 className="text-4xl font-bold text-blue-200 drop-shadow mb-2">SnowRSPS!</h1>
