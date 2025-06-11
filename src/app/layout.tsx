@@ -2,17 +2,15 @@
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
  import Navbar from '../components/Navbar'
-import { useEffect, useState } from 'react'
+
 
 
 
 
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const [year,setYear] = useState<number | null>(null);
- useEffect(() => {
-  setYear(new Date().getFullYear());
-  }, []);
+  const year = new Date().getFullYear();
+ 
   return (
     <html lang="en">
       <body>
@@ -22,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </main>
           <footer className="text-center py-6 text-blue-200">
-            © {year ? year : ""} SnowRSPS
+            © {year} SnowRSPS
           </footer>
         </ThemeProvider>
       </body>

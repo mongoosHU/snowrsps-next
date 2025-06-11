@@ -25,12 +25,20 @@ export default function Navbar() {
           Download
         </Link>
       </div>
+      <div className="flex-1 flex justify-center">
+        <Link
+          href="https://discord.com/invite/ww5bXnae?utm_source=Discord%20Widget&utm_medium=Connect"
+          className="bg-blue-500 hover:bg-blue-700 text-white text-lg font-bold px-6 py-2 rounded-lg shadow-lg transition border-2 border-blue-400 animate-pulse"
+        >
+          Discord
+        </Link>
+      </div>
 
       {/* Jobb oldal: Menüpontok + Theme váltó */}
       <div className="flex items-center gap-4">
         <Link href="/toplist" className="text-gray-200 hover:text-blue-400 font-medium transition">Toplist</Link>
-        
-        {mounted && (
+        <Link href="/guide" className="text-gray-200 hover:text-blue-400 font-medium transition">Guide</Link>
+                {mounted && theme && (
           <button
             className="ml-4 p-2 rounded-full hover:bg-gray-700/40 dark:hover:bg-gray-300/20"
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
